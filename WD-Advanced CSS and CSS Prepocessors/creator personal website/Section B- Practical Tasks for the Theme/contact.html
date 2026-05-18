@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Joe Smith</h1>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Social Media</a>
+        <a href="#" class="active">Contact</a>
+    </nav>
+
+    <!-- CONTACT SECTION -->
+    <section>
+
+        <h2>Contact Me</h2>
+
+        <div class="line"></div>
+
+        <div class="contact-container">
+
+            <!-- FORM -->
+            <form id="contactForm">
+
+                <input type="text"
+                    id="name"
+                    placeholder="Enter Name"
+                    required>
+
+                <input type="email"
+                    id="email"
+                    placeholder="Enter Email"
+                    required>
+
+                <textarea id="message"
+                    placeholder="Enter Message"
+                    required></textarea>
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+            <!-- USER RECORDS -->
+            <div id="records">
+
+                <h3>User Records</h3>
+
+                <p class="success-message" id="successMessage">
+                    Message Sent Successfully!
+                </p>
+
+                <!-- Records added by JavaScript -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Joe Smith</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
