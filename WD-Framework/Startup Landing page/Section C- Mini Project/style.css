@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f5f9ff;
+}
+
+/* Navbar */
+
+.custom-navbar{
+    background: linear-gradient(to right,#000814,#001d3d);
+    padding: 15px 0;
+}
+
+/* Hero */
+
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #f7fbff;
+}
+
+.hero-image{
+    max-width: 420px;
+}
+
+/* Mini Hero */
+
+.mini-hero{
+    background: #eef5ff;
+    padding: 100px 0;
+}
+
+/* Cards */
+
+.service-card{
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.service-card:hover{
+    transform: translateY(-10px);
+}
+
+/* Service Icons */
+
+.service-icon{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon i{
+    color: white;
+    font-size: 35px;
+}
+
+.bg-purple{
+    background: #7c3aed;
+}
+
+/* About */
+
+.about-image{
+    max-width: 100%;
+}
+
+.feature-box{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.feature-box i{
+    margin-right: 10px;
+}
+
+/* Footer */
+
+.footer{
+    background: linear-gradient(to right,#000814,#001d3d);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .hero-section{
+        text-align: center;
+        padding: 80px 0;
+    }
+
+    .hero-image{
+        margin-top: 40px;
+    }
+
+}
