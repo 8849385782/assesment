@@ -1,0 +1,131 @@
+<!-- contact.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Persona | Contact</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header class="header">
+
+    <nav class="navbar">
+
+      <h1 class="logo">Persona</h1>
+
+      <ul class="nav-links">
+
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <!-- Contact Section -->
+
+  <main class="contact-page">
+
+    <section class="contact-box">
+
+      <h2>Professional Inquiry</h2>
+
+      <p>
+        Have a project in mind or want
+        to collaborate? Fill out the form
+        below and we’ll contact you soon.
+      </p>
+
+      <form id="contactForm">
+
+        <label for="name">
+          Full Name
+        </label>
+
+        <input type="text"
+               id="name"
+               placeholder="Enter your full name"
+               required>
+
+        <label for="email">
+          Email Address
+        </label>
+
+        <input type="email"
+               id="email"
+               placeholder="Enter your email address"
+               required>
+
+        <label for="message">
+          Message
+        </label>
+
+        <textarea id="message"
+                  rows="5"
+                  placeholder="Write your message here..."
+                  required></textarea>
+
+        <button type="submit"
+                class="btn">
+          Send Message ✈
+        </button>
+
+      </form>
+
+      <!-- Success Message -->
+
+      <div id="successBox">
+
+        <span class="success-icon">
+          ✔
+        </span>
+
+        <div>
+
+          <h3>
+            Message Sent Successfully!
+          </h3>
+
+          <p>
+            We will contact you soon.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+
+    <p>
+      © 2026 Persona Digital Identity Service
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
