@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog - Daya Trivedi">
+    <meta name="author" content="Daya Trivedi">
+    <title>Blog - Daya Trivedi</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-code"></i> Daya Trivedi
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="startup.html">Startup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Blog Header -->
+        <section class="hero-section py-5 bg-gradient-blog">
+            <div class="container">
+                <header class="text-center">
+                    <h1 class="display-4 fw-bold text-white mb-3">Blog & Articles</h1>
+                    <p class="lead text-light">Insights, tutorials, and stories from my development journey</p>
+                </header>
+            </div>
+        </section>
+
+        <!-- Featured Post -->
+        <section class="py-5">
+            <div class="container">
+                <article class="featured-post row g-4 mb-5">
+                    <div class="col-md-6">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" class="blog-featured-svg">
+                            <rect x="0" y="0" width="400" height="300" fill="#f0f4f8"/>
+                            <circle cx="100" cy="100" r="50" fill="#007bff" opacity="0.8"/>
+                            <circle cx="300" cy="200" r="60" fill="#0056b3" opacity="0.6"/>
+                            <rect x="150" y="150" width="100" height="100" fill="#28a745" opacity="0.5" rx="10"/>
+                            <text x="50" y="260" font-size="20" fill="#007bff">Featured Article</text>
+                        </svg>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="featured-content">
+                            <span class="badge bg-primary mb-2">Featured</span>
+                            <h2 class="mb-3">Building Scalable React Applications</h2>
+                            <p class="text-muted mb-2">
+                                <i class="fas fa-calendar me-2"></i> June 10, 2026
+                                <i class="fas fa-user ms-3 me-2"></i> Daya Trivedi
+                            </p>
+                            <p class="mb-4">
+                                Learn best practices for building large-scale React applications with proper state management, code splitting, and performance optimization techniques.
+                            </p>
+                            <div class="tags mb-4">
+                                <span class="badge bg-light text-dark me-2">React</span>
+                                <span class="badge bg-light text-dark me-2">JavaScript</span>
+                                <span class="badge bg-light text-dark me-2">Performance</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">Read Article <i class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Blog Posts Grid -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h2 class="mb-5 fw-bold">Latest Articles</h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <article class="blog-card h-100">
+                            <div class="blog-image">
+                                <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="300" height="200" fill="#e7f3ff"/>
+                                    <circle cx="150" cy="100" r="60" fill="#007bff" opacity="0.7"/>
+                                    <text x="50" y="190" font-size="16" fill="#0056b3">Node.js API Design</text>
+                                </svg>
+                            </div>
+                            <div class="blog-body p-4">
+                                <h3 class="mb-2">Node.js API Design Patterns</h3>
+                                <p class="text-muted small mb-3">
+                                    <i class="fas fa-calendar me-2"></i> June 5, 2026
+                                </p>
+                                <p>Essential patterns and best practices for designing RESTful APIs with Node.js and Express.</p>
+                                <div class="tags mb-3">
+                                    <span class="badge bg-primary">Node.js</span>
+                                    <span class="badge bg-primary">API</span>
+                                </div>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <article class="blog-card h-100">
+                            <div class="blog-image">
+                                <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="300" height="200" fill="#f0fff4"/>
+                                    <rect x="50" y="50" width="80" height="100" fill="#28a745" opacity="0.7" rx="10"/>
+                                    <rect x="170" y="50" width="80" height="100" fill="#20c997" opacity="0.7" rx="10"/>
+                                    <text x="30" y="190" font-size="16" fill="#155724">Testing Strategies</text>
+                                </svg>
+                            </div>
+                            <div class="blog-body p-4">
+                                <h3 class="mb-2">Modern Testing Strategies</h3>
+                                <p class="text-muted small mb-3">
+                                    <i class="fas fa-calendar me-2"></i> May 28, 2026
+                                </p>
+                                <p>Complete guide to unit testing, integration testing, and end-to-end testing with Jest and Cypress.</p>
+                                <div class="tags mb-3">
+                                    <span class="badge bg-success">Testing</span>
+                                    <span class="badge bg-success">Jest</span>
+                                </div>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <article class="blog-card h-100">
+                            <div class="blog-image">
+                                <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="300" height="200" fill="#fff3e0"/>
+                                    <polygon points="150,50 200,150 100,150" fill="#ff9800" opacity="0.7"/>
+                                    <circle cx="150" cy="100" r="30" fill="#ff6f00" opacity="0.7"/>
+                                    <text x="50" y="190" font-size="16" fill="#e65100">Performance Tips</text>
+                                </svg>
+                            </div>
+                            <div class="blog-body p-4">
+                                <h3 class="mb-2">Web Performance Optimization</h3>
+                                <p class="text-muted small mb-3">
+                                    <i class="fas fa-calendar me-2"></i> May 15, 2026
+                                </p>
+                                <p>Practical techniques to improve your web application's performance and user experience metrics.</p>
+                                <div class="tags mb-3">
+                                    <span class="badge bg-warning">Performance</span>
+                                    <span class="badge bg-warning">SEO</span>
+                                </div>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <article class="blog-card h-100">
+                            <div class="blog-image">
+                                <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="300" height="200" fill="#f3e5f5"/>
+                                    <rect x="60" y="40" width="180" height="120" fill="#9c27b0" opacity="0.7" rx="15"/>
+                                    <text x="50" y="190" font-size="16" fill="#6a1b9a">CSS Techniques</text>
+                                </svg>
+                            </div>
+                            <div class="blog-body p-4">
+                                <h3 class="mb-2">Advanced CSS Techniques</h3>
+                                <p class="text-muted small mb-3">
+                                    <i class="fas fa-calendar me-2"></i> May 1, 2026
+                                </p>
+                                <p>Master advanced CSS features including Grid, Flexbox, Custom Properties, and Animation.</p>
+                                <div class="tags mb-3">
+                                    <span class="badge" style="background-color: #7b1fa2;">CSS3</span>
+                                    <span class="badge" style="background-color: #7b1fa2;">Design</span>
+                                </div>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <article class="blog-card h-100">
+                            <div class="blog-image">
+                                <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="300" height="200" fill="#fce4ec"/>
+                                    <circle cx="80" cy="80" r="40" fill="#e91e63" opacity="0.7"/>
+                                    <circle cx="220" cy="120" r="50" fill="#c2185b" opacity="0.7"/>
+                                    <text x="60" y="190" font-size="16" fill="#ad1457">Docker Guide</text>
+                                </svg>
+                            </div>
+                            <div class="blog-body p-4">
+                                <h3 class="mb-2">Getting Started with Docker</h3>
+                                <p class="text-muted small mb-3">
+                                    <i class="fas fa-calendar me-2"></i> April 20, 2026
+                                </p>
+                                <p>Comprehensive guide to containerization with Docker and Docker Compose for developers.</p>
+                                <div class="tags mb-3">
+                                    <span class="badge bg-danger">Docker</span>
+                                    <span class="badge bg-danger">DevOps</span>
+                                </div>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <article class="blog-card h-100">
+                            <div class="blog-image">
+                                <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="300" height="200" fill="#ede7f6"/>
+                                    <rect x="50" y="50" width="200" height="100" fill="#5e35b1" opacity="0.7" rx="10"/>
+                                    <text x="50" y="190" font-size="16" fill="#3e1f47">Accessibility</text>
+                                </svg>
+                            </div>
+                            <div class="blog-body p-4">
+                                <h3 class="mb-2">Building Accessible Web Apps</h3>
+                                <p class="text-muted small mb-3">
+                                    <i class="fas fa-calendar me-2"></i> April 10, 2026
+                                </p>
+                                <p>Essential principles and practices for creating inclusive and accessible web applications.</p>
+                                <div class="tags mb-3">
+                                    <span class="badge" style="background-color: #512da8;">A11y</span>
+                                    <span class="badge" style="background-color: #512da8;">WCAG</span>
+                                </div>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4">
+                        <h2 class="fw-bold mb-3">Subscribe to Updates</h2>
+                        <p class="lead mb-4">Get the latest articles and insights delivered to your inbox.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="newsletter-form">
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control form-control-lg" placeholder="Your email address" required>
+                                <button class="btn btn-primary btn-lg" type="submit">
+                                    <i class="fas fa-paper-plane"></i> Subscribe
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>About</h5>
+                    <p>A passionate developer creating impactful digital solutions.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-decoration-none">About</a></li>
+                        <li><a href="services.html" class="text-decoration-none">Services</a></li>
+                        <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Follow</h5>
+                    <div class="footer-social">
+                        <a href="https://github.com/8849385782-spec" target="_blank" rel="noopener noreferrer" class="me-3">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/daya-trivedi" target="_blank" rel="noopener noreferrer" class="me-3">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/dayatrivedi" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                     <a href="https://www.youtube.com/channel/@lens8617" target="_blank" rel="noopener noreferrer" class="social-icon-large" aria-label="YouTube">
+                                <i class="fab fa-youtube fa-3x"></i>
+                                <span class="d-block mt-2">YouTube</span>
+                            </a>
+                        <a href="https://www.instagram.com/Dayatrivedi51" target="_blank" rel="noopener noreferrer" class="social-icon-large" aria-label="Instagram">
+                                <i class="fab fa-instagram fa-3x"></i>
+                                <span class="d-block mt-2">Instagram</span>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <small>&copy; 2026 Daya Trivedi. All rights reserved. | <a href="#" class="text-decoration-none">Privacy Policy</a></small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
